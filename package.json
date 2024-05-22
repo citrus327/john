@@ -1,0 +1,21 @@
+{
+  "name": "john",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --env-file=.env src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/cloudflare": "^0.0.6",
+    "langchain": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.10.5"
+  }
+}
